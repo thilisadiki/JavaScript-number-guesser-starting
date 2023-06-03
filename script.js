@@ -2,8 +2,7 @@ let humanScore = 0;
 let computerScore = 0;
 let currentRoundNumber = 1;
 
-// Write your code below:
-
+// Target function generator
 function generateTarget(){
     return Math.floor(Math.random()*10);
    }
@@ -25,6 +24,7 @@ function generateTarget(){
      }
    }
    
+
    function updateScore(winner) {
      if (winner === 'human') {
        humanScore++; // Increase humanScore by 1 if human wins
